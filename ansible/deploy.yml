@@ -50,7 +50,7 @@
 
     - name: Copy application files
       copy:
-        src: /path/to/your/local/repo/
+        src: /home/ubuntu/React-django/
         dest: /opt/myapp/
 
     - name: Create .env file from template
